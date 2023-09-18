@@ -1,33 +1,35 @@
 import React, { useRef } from "react";
 import "./Contectme.css";
+import emailjs from '@emailjs/browser';
+import {FiPhoneCall} from "react-icons/fi";
 
 const Contectme = () => {
   const form = useRef();
   const contactsDetails = [
-    { id: "1", icon: "hello", contact_name: "kenil raval", contact_info: "wp" },
-    { id: "1", icon: "hello", contact_name: "kenil raval", contact_info: "wp" },
-    { id: "1", icon: "hello", contact_name: "kenil raval", contact_info: "wp" }
+    { id: "1", icon: `FiPhoneCall`, contact_name: "Call Me", contact_info: "+91 8866942449" },
+    { id: "2", icon: "hello", contact_name: "Email Me", contact_info: "Ravalkenil@gmail.com" },
+    { id: "3", icon: "hello", contact_name: "Location", contact_info: "Gujarat,Bharat" }
   ];
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs
-    //   .sendForm(
-    //     process.env.REACT_APP_SERVICE_ID,
-    //     process.env.REACT_APP_TEMPLATE_ID,
-    //     form.current,
-    //     process.env.REACT_APP_USER_ID
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
-    // e.target.reset();
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   };
   return (
     <>
@@ -45,7 +47,7 @@ const Contectme = () => {
                   contactsDetails.map((details) => (
                     <div className="contact-info  " key={details.id}>
                       <div className="contact-details">
-                        <i className={details.icon}></i>
+                        <i className={details.icon} ></i>
                         <div className="contact-mi">
                           <h4 className="icon-name">{details.contact_name}:</h4>
                           <p className="d-name">{details.contact_info}</p>
