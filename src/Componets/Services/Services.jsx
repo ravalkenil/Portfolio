@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Services.css"
+import {RiShieldUserLine} from "react-icons/ri";
+import {SiMicrosoftsqlserver} from "react-icons/si";
+import {PiUserCircleGear} from "react-icons/pi";
 
 const Services = () => {
   return (
@@ -22,7 +25,8 @@ const Services = () => {
                   data-aos-duration="1500"
                 >
                   <div className="ser-back">
-                    {/* <img src={`${img_300}${service.icon_image}`} alt="" /> */}
+                    {/* <img src={`${<RiShieldUserLine/>}`} alt="" /> */}
+                    <RiShieldUserLine/>
                   </div>
                   <h4 className="web">{"Decentralized Application (DApp) Development"}</h4>
                   <p className="service-info">{"Developers create decentralized applications that run on blockchain platforms. DApps can be built for various purposes, such as finance, supply chain, gaming, and more "}</p>
@@ -39,6 +43,7 @@ const Services = () => {
                 >
                   <div className="ser-back">
                     {/* <img src={`${img_300}${service.icon_image}`} alt="" /> */}
+                    <SiMicrosoftsqlserver/>
                   </div>
                   <h4 className="web">{"Blockchain Integration"}</h4>
                   <p className="service-info">{"Developers integrate blockchain technology with existing systems and applications, ensuring data interoperability and security"}</p>
@@ -54,7 +59,7 @@ const Services = () => {
                   data-aos-duration="1500"
                 >
                   <div className="ser-back">
-                    {/* <img src={`${img_300}${service.icon_image}`} alt="" /> */}
+                  <PiUserCircleGear/>
                   </div>
                   <h4 className="web">{"Smart Contract Development"}</h4>
                   <p className="service-info">{"Blockchain developers create smart contracts, self-executing contracts with the terms of the agreement directly written into code. They often use languages like Solidity (for Ethereum) or other blockchain-specific languages"}</p>

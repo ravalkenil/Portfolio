@@ -194,8 +194,8 @@ const Navbar = () => {
                     <input id="toggle" class="toggle" type="checkbox"></input>
                   </div>
                   <div>
-                    <div className="CvMe">
-                      <button className="my-cv">Contact Me</button>
+                    <div className="CvMe" to="#contact">
+                      <button className="my-cv"> <a href="#contact"> Contact Me </a></button>
                     </div>
                   </div>
 
