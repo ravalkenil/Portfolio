@@ -1,19 +1,22 @@
 import React, { useRef } from "react";
 import "./Contectme.css";
 import emailjs from '@emailjs/browser';
-import {FiPhoneCall} from "react-icons/fi";
+import { FiPhoneCall } from "react-icons/fi";
+import {AiOutlineMail} from "react-icons/ai";
+import {GrMapLocation} from "react-icons/gr"
 
 const Contectme = () => {
   const form = useRef();
   const contactsDetails = [
-    { id: "1", icon: `FiPhoneCall`, contact_name: "Call Me", contact_info: "+91 8866942449" },
-    { id: "2", icon: "hello", contact_name: "Email Me", contact_info: "Ravalkenil@gmail.com" },
-    { id: "3", icon: "hello", contact_name: "Location", contact_info: "Gujarat,Bharat" }
+    { id: "1", icon: FiPhoneCall, contact_name: "Call Me", contact_info: "+91 8866942449" },
+    { id: "2", icon: AiOutlineMail, contact_name: "Email Me", contact_info: "Ravalkenil@gmail.com" },
+    { id: "3", icon: GrMapLocation, contact_name: "Location", contact_info: "Gujarat,Bharat" }
   ];
 
   const sendEmail = (e) => {
-    e.preventDefault();
 
+    e.preventDefault();
+    
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
@@ -31,6 +34,8 @@ const Contectme = () => {
       );
     e.target.reset();
   };
+
+
   return (
     <>
       <div className="reachme-container" id="contact">
@@ -47,11 +52,11 @@ const Contectme = () => {
                   contactsDetails.map((details) => (
                     <div className="contact-info  " key={details.id}>
                       <div className="contact-details">
-                        <i className={details.icon} ></i>
+                        <i className="" >{<details.icon/>}</i>
                         <div className="contact-mi">
                           <h4 className="icon-name">{details.contact_name}:</h4>
                           <p className="d-name">{details.contact_info}</p>
-                        </div>
+                        </div> 
                       </div>
                     </div>
                   ))}
