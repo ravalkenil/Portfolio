@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.aac28fca.css",
+    "main.js": "/Portfolio/static/js/main.7578f2c1.js",
+    "static/media/background.png": "/Portfolio/static/media/background.78f65f0d57d328c7311a.png",
+    "static/media/Nftbridge.png": "/Portfolio/static/media/Nftbridge.f7aa1fa6b91799e39c73.png",
+    "static/media/Nft_marketplace_next.png": "/Portfolio/static/media/Nft_marketplace_next.ad32eee98ee32c96bcd1.png",
+    "static/media/nftmarketplace_react.png": "/Portfolio/static/media/nftmarketplace_react.b1d868102699780feb24.png",
+    "static/media/Programmer-pana.png": "/Portfolio/static/media/Programmer-pana.c99fa9b3cbf0b041dacf.png",
+    "static/media/Nft1.png": "/Portfolio/static/media/Nft1.80653ea710d094127f89.png",
+    "static/media/man3.png": "/Portfolio/static/media/man3.4276693fc5c899d774f0.png",
+    "static/media/auth3.png": "/Portfolio/static/media/auth3.f9e893d62e4dd66e43d6.png",
+    "static/media/hyperledger.png": "/Portfolio/static/media/hyperledger.7c4fe08c14166fe99f40.png",
+    "static/media/ethersjs.png": "/Portfolio/static/media/ethersjs.7c6286631017f9894b63.png",
+    "static/media/indexer.png": "/Portfolio/static/media/indexer.24b1e1eba074b496c43b.png",
+    "static/media/Ethereum.png": "/Portfolio/static/media/Ethereum.fd5ea3bc712acfcd56b2.png",
+    "static/media/auth0.png": "/Portfolio/static/media/auth0.f85f25b6d5f349a37d65.png",
+    "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.ff4ba441ec3324145fde.png",
+    "static/media/dots.png": "/Portfolio/static/media/dots.35f111eb09e71c456e61.png",
+    "static/media/reactjs.png": "/Portfolio/static/media/reactjs.396536ced87da4ba25b4.png",
+    "static/media/nextjs.svg": "/Portfolio/static/media/nextjs.8f10b4cb8e3cabc6593db1264cb3bff3.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.aac28fca.css.map": "/Portfolio/static/css/main.aac28fca.css.map",
+    "main.7578f2c1.js.map": "/Portfolio/static/js/main.7578f2c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aac28fca.css",
+    "static/js/main.7578f2c1.js"
+  ]
+}
