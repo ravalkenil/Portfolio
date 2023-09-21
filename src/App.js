@@ -33,12 +33,12 @@ function App() {
   });
    
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1500,
-      once: true,
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 1500,
+  //     once: true,
+  //   });
+  // }, []);
 
   return (
     <>
