@@ -1,8 +1,8 @@
 import React,{useEffect} from "react";
 import { BrowserRouter } from "react-router-dom";
 import './App.css';
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import Home from './Componets/Home/Home';
 import Aboutme from './Componets/Aboutme/Aboutme';
 import Contectme from "./Componets/Contectme/Contectme";
