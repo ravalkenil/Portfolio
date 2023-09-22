@@ -43,9 +43,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div id="preloader">
-          <h2 className="name-load  animate-charcter">loading</h2>
-        </div>
         <div className="homepage">
           <Navbar />
           <Home />
