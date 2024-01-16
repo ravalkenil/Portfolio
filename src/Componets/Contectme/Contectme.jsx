@@ -63,6 +63,7 @@ const Contectme = () => {
               </div>
             </div>
           </div>
+          
           <div className="col-md-6 email-me container">
             <form
               action=""
@@ -71,7 +72,9 @@ const Contectme = () => {
               onSubmit={sendEmail}
             >
               <div className="row">
-                <div className="col-md-12 mb-3 hire-me-title"></div>
+                <div className="col-md-12 mb-3 hire-me-title"> 
+                  <h6> * you can type in the details here , unfortunately this won't work, but don't worry if I build your form that will work.</h6>
+                </div>
                 <div className="col-md-6 ">
                   <input
                     type="text"

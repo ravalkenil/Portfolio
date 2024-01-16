@@ -3,6 +3,7 @@ import "./Aboutme.css";
 import Dot1 from "../images/decoration/dots-1.png";
 import reactagle from "../images/decoration/Rectangle-7.png";
 import shady from "../images/decoration/dots.png";
+import Code from "../images/code.gif";
 
 const Aboutme = () => {
   return (
@@ -27,8 +28,8 @@ const Aboutme = () => {
             >
               {/* <img src={`${img_300}${d/etails.about_avatar}`} alt="" /> */}
               <img
-                style={{ height: "70%", width: "70%" }}
-                src={`https://drive.google.com/uc?id=1iyVyaGyw5HniEugxd1-qZ54rpFpn2UTc`}
+                style={{ height: "70%", width: "70%" ,borderRadius: "20%" }}
+                src={Code}
                 alt=""
               />
             </div>
@@ -62,9 +63,7 @@ const Aboutme = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="download-cv">
-                   MAIL ME<i class="bx bx-download"></i>
-                  </button>
+                  
                 </a>
               </div>
             </div>
