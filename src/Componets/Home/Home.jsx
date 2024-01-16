@@ -123,7 +123,7 @@ const Home = () => {
                       // src="https://drive.google.com/uc?id=1iyVyaGyw5HniEugxd1-qZ54rpFpn2UTc"
                       src={profile}
                       alt=""
-                      style={{ height: "600px", width: "600px" ,objectFit: "cover",background:"linear-gradient(to left,#1f0a44 0, #cce0ff, #1f0a44)", borderRadius: "50%" ,border: "2px solid red"}}
+                      style={{ height: "500px", width: "500px" ,objectFit: "cover",background:"linear-gradient(to left,#1f0a44 0, #cce0ff, #1f0a44)", borderRadius: "50%" ,border: "2px solid red"}}
                     />
                     {/* <img
                       className="intro-img"
