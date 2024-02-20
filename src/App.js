@@ -11,6 +11,8 @@ import Projects from "./Componets/Projects/Projects";
 import Navbar from "./Componets/Navbar/Navbar";
 import Footer from "./Componets/Footer/Footer";
 import Skillbar from "./Componets/Skillbar/Skillbar";
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
 
@@ -53,6 +55,7 @@ function App() {
         <Projects />
         <Contectme />
         <Footer />
+        <Analytics />
       </BrowserRouter>
     </>
   );
