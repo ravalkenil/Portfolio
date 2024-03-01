@@ -208,7 +208,8 @@ i {
     padding-left: 30px;
   }
   .about-description p {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.3rem;
   }
   .download-cv {
     margin-top: 0 !important;
@@ -244,7 +245,8 @@ i {
     padding-left: 30px;
   }
   .about-description p {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.3rem;
   }
   .download-cv {
     margin-top: 0 !important;
@@ -263,6 +265,10 @@ i {
     margin-right: 0 !important;
     width: 60%;
   }
+  .about-description p {
+    font-size: 12px;
+    line-height: 1.3rem;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -275,14 +281,26 @@ i {
     width: 100%;
     margin-right: 0 !important;
   }
+
+  .about-description p {
+    font-size: 12px;
+    line-height: 1.3rem;
+  }
+  
 }
 
 @media only screen and (max-width: 425px) {
   .abouMe-row {
     padding-left: 10px;
   }
+
   .about_myinfo {
     padding: 10px !important;
+  }
+
+  .about-description p {
+    font-size: 12px;
+    line-height: 1.3rem;
   }
 }
 

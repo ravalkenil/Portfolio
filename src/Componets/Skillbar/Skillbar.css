@@ -130,7 +130,7 @@
   }
   .mylang h3 {
     color: rgb(255, 255, 255);
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .mylang p {
     border: 1px solid rgb(37, 43, 88);
@@ -194,12 +194,43 @@
     .progress-title h3 {
       font-size: 2rem;
     }
+    .lang-info h3{
+      font-size: smaller;
+    }
+
+    .lang-info img {
+      width: 30px;
+      height: 30px;
+    }
+
+    h3{
+      font-size: 1rem !important;
+    }
+    
+
+    .lang-img{
+       width: 40px;
+       height: 40px;
+    }
   }
   
   @media only screen and (max-width: 425px) {
     .progress-container {
       padding: 50px 20px;
     }
+
+    .lang-info img {
+      width: 25px;
+      height: 25px;
+    }
+    h3{
+      font-size: 1rem !important;
+    }
+
+    .lang-img{
+      width: 35px;
+      height: 35px;
+   }
   }
   /*light theme  */
   .light .skill-bar {

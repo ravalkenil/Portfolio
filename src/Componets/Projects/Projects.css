@@ -174,8 +174,11 @@
     .work-togather-form {
       padding-left: 0px;
     }
-    .project-row {
+    
+    .work-img{
+      height: 200px;
     }
+
     .owl-item {
       display: flex !important;
       justify-content: center;
@@ -203,6 +206,7 @@
     }
     .work-img {
       padding: 10px;
+      height: 200px;
     }
     .work-details {
       padding: 0 10px 10px 10px;
@@ -216,12 +220,22 @@
     .mywork {
       padding-left: 20px !important;
     }
+
+    .work-img{
+      height: 200px;
+    }
   }
   
   .light .work-details h2 {
     color: black !important;
-    font-family: "poppins", sans-serif !important;
+    font-family: "poppins", 
+    sans-serif !important;
   }
+  .work-details p{
+    font-size: 10px;
+    line-height: 1rem;
+  }
+  
   .light .who-post p {
     color: #ff5652 !important;
   }

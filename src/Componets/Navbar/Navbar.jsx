@@ -1,81 +1,11 @@
-import React ,{useEffect}from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import $ from "jquery";
 
 const Navbar = () => {
 
-  // useEffect(() => {
-  //   // Hamburger menu
-  //   const menuBtns = document.querySelectorAll(".menuBtn");
-  //   const menuBtnClickHandler = () => {
-  //     menuBtns.forEach((btn) => {
-  //       btn.classList.toggle("act");
-  //       console.log(btn.classList.toggle("act"));
-  //       const mainMenu = document.querySelector(".mainMenu");
-  //       if (!btn.classList.contains("act")) {
-  //         mainMenu.classList.add("act");
-  //       } else {
-  //         mainMenu.classList.remove("act");
-  //       }
-  //     });
-  //   };
-
-  //   menuBtns.forEach((btn) => {
-  //     btn.addEventListener("click", menuBtnClickHandler);
-  //   });
-
-  //   // Click to scroll
-  //   const menuLinks = document.querySelectorAll(".mainMenu li a");
-  //   const menuLinkClickHandler = (e) => {
-  //     e.preventDefault();
-  //     const targetHref = e.currentTarget.getAttribute("href");
-  //     const targetElement = document.querySelector(targetHref);
-  //     if (targetElement) {
-  //       window.scrollTo({
-  //         top: targetElement.offsetTop,
-  //         behavior: "smooth",
-  //       });
-  //     }
-  //     const menuBtn = document.querySelector(".menuBtn");
-  //     const mainMenu = document.querySelector(".mainMenu");
-  //     menuBtn.classList.remove("act");
-  //     mainMenu.classList.remove("act");
-  //   };
-  //   menuLinks.forEach((link) => {
-  //     link.addEventListener("click", menuLinkClickHandler);
-  //   });
-
-  //   // Change navbar color on scroll
-  //   const nav = document.querySelector(".navbur");
-  //   const handleScroll = () => {
-  //     if (window.scrollY > nav.clientHeight) {
-  //       nav.classList.add("scrolled");
-  //     } else {
-  //       nav.classList.remove("scrolled");
-  //     }
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   // Toggle light and dark theme
-  //   const toggleBtn = document.querySelector(".toggle");
-  //   const toggleBtnClickHandler = () => {
-  //     document.body.classList.toggle("light");
-  //   };
-  //   toggleBtn.addEventListener("click", toggleBtnClickHandler);
-
-  //   // Clean up event listeners when the component unmounts
-  //   return () => {
-  //     menuBtns.forEach((btn) => {
-  //       btn.removeEventListener("click", menuBtnClickHandler);
-  //     });
-  //     menuLinks.forEach((link) => {
-  //       link.removeEventListener("click", menuLinkClickHandler);
-  //     });
-  //     window.removeEventListener("scroll", handleScroll);
-  //     toggleBtn.removeEventListener("click", toggleBtnClickHandler);
-  //   };
-  // }, []);
+ 
   $(document).ready(function () {
     $(".menuBtn").click(function () {
       $(this).toggleClass("act");
@@ -190,8 +120,8 @@ const Navbar = () => {
                 </ul>
                 </nav>
                 <div className="left-btns">
-                  <div class=" " id="theme-button2">
-                    <input id="toggle" class="toggle" type="checkbox"></input>
+                  <div className=" " id="theme-button2">
+                    <input id="toggle" className="toggle" type="checkbox"></input>
                   </div>
                   <div>
                     <div className="CvMe" to="#contact">

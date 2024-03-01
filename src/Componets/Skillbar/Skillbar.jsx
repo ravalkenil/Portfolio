@@ -35,13 +35,13 @@ import Walletconnect from "../images/blockchain/walletconnect.png";
 const Skillbar = () => {
   const responsive = {
     0: {
-      items: 1,
+      items: 2,
     },
     380: {
-      items: 1,
+      items: 2,
     },
     512: {
-      items: 2,
+      items: 3,
     },
     665: {
       items: 3,

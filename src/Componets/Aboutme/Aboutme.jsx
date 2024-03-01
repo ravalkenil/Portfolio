@@ -26,7 +26,6 @@ const Aboutme = () => {
               className=" col-lg-6 col-md-5 col-sm-12 about-img"
               data-aos="fade-up-right"
             >
-              {/* <img src={`${img_300}${d/etails.about_avatar}`} alt="" /> */}
               <img
                 style={{ height: "70%", width: "70%" ,borderRadius: "20%" }}
                 src={Code}

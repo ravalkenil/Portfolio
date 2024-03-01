@@ -69,8 +69,7 @@
     font-size: 15px;
     line-height: 30px;
   }
-  .contact-info {
-  }
+ 
   .contact-info {
     display: flex;
     cursor: pointer;
@@ -99,6 +98,7 @@
   }
   .contact-mi p {
     font-size: 14px;
+    text-align: inherit;
   }
   .contact-mi h4 {
     margin-bottom: 0;
@@ -132,9 +132,8 @@
   }
   
   @media only screen and (max-width: 689px) {
-    .reachme-title .row {
-      justify-content: center;
-    }
+
+
     .reachme-title h2 {
       text-align: center;
     }
@@ -143,6 +142,21 @@
     }
   }
   @media only screen and (max-width: 550px) {
+
+    .contact-info i {
+
+      height: 50px;
+      width: 50px;
+    }
+
+    .contact-details {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .contact-mi p {
+      font-size: 10px;
+    }
     .email-me {
       padding: 0px !important;
     }
@@ -150,8 +164,7 @@
       padding: 10px;
     }
   }
-  .light .contact-info {
-  }
+
   .light .email-me input {
     color: #000000;
   }

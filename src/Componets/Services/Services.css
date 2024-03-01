@@ -141,6 +141,7 @@
     .my-service {
       padding: 10px 10px;
       margin-right: 10px;
+     
     }
   }
   @media only screen and (max-width: 768px) {
@@ -156,20 +157,26 @@
     .my-service {
       margin-bottom: 20px;
       width: 250px;
-  
+      width: 220px;
+      height: 220px;
       margin-right: 20px;
     }
   }
   
   @media only screen and (max-width: 425px) {
     .my-service {
-      width: 300px;
+      width: 200px;
+      height: 200px;
     }
   }
   
   @media only screen and (max-width: 375px) {
     .service-container {
       padding: 30px 20px !important ;
+    }
+    .my-service {
+      width: 200px;
+      height: 200px;
     }
   }
   

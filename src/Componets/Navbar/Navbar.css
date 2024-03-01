@@ -275,11 +275,11 @@ nav {
   .mainMenu {
     background-color: var(--color-background);
     position: absolute;
-    right: -20px;
+    /* right: -20px; */
     top: -20px;
     z-index: 100;
     height: 100vh;
-    width: 90%;
+    width: 100% !important;
     z-index: 100;
     display: flex;
     flex-direction: column;
@@ -442,6 +442,7 @@ nav {
 .light .scrolled {
   background: lightblue !important;
 }
+
 .light .navbur {
   background: #ffffff !important;
 }
@@ -468,7 +469,8 @@ nav {
 }
 
 .light #theme-button2 {
-  background-color: #fff !important;
+  /* background-color: #fff !important; */
+  background-color: #da8080 !important;
 }
 .light .devman {
   color: #ff5652 !important;

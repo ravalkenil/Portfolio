@@ -101,7 +101,7 @@ const Projects = () => {
       project_link: "https://github.com/ravalkenil/Management_system",
     }
   ];
-  const img_300 = "http://drive.google.com/uc?id=";
+  
   return (
     <div className="mywork " id="work">
       <div className="mywork-title">

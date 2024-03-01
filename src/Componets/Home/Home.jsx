@@ -1,12 +1,11 @@
 import React from 'react'
 import "./Home.css"
 import Img from "../images/decoration/Group-31.png"
-import { AiFillGithub,AiOutlineLinkedin } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import {BsLinkedin ,BsWhatsapp} from "react-icons/bs"
 import { FaXTwitter} from "react-icons/fa6"
 import profile from "../images/profile1.png"
-import bgex from "../images/Web.jpg"
-import Sideimg from "../images/Programmer-pana.png"
+
 
 const Home = () => {
   return (
@@ -120,17 +119,11 @@ const Home = () => {
                     </div>
                     <img
                       className="intro-img"
-                      // src="https://drive.google.com/uc?id=1iyVyaGyw5HniEugxd1-qZ54rpFpn2UTc"
                       src={profile}
                       alt=""
-                      style={{ width: "500px" ,objectFit: "cover",background:"linear-gradient(to left,#1f0a44 0, #cce0ff, #1f0a44)", borderRadius: "50%" ,border: "2px solid red"}}
+                      style={{ objectFit: "cover",background:"linear-gradient(to left,#1f0a44 0, #cce0ff, #1f0a44)", borderRadius: "50%" ,border: "2px solid red"}}
                     />
-                    {/* <img
-                      className="intro-img"
-                      style={{height:"10%",width:"%"}}
-                      src={Sideimg}
-                      alt=""
-                    /> */}
+                    
                   </div>
                 </div>
               </div>
